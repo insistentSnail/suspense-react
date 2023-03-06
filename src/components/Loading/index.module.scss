@@ -1,0 +1,18 @@
+.loadingBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba($color: #f8f8f8, $alpha: 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .loadingBox {
+    display: flex;
+    flex-direction: column;
+    span {
+      font-size: 20px;
+    }
+  }
+}
